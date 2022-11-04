@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  }
+  a{
+    /* text-decoration: none; */
+    color: blanchedalmond;
+  }
+  body{
+    background: linear-gradient( var(--primary-color), bisque );
+    background-attachment: fixed;
+  }
+  
+  .login a{
+    
+    align-items: center;
+    align-content: center;
+  }
+  .login{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(255, 168, 168, 0.65);
+    margin: 6rem auto 8.1rem auto;
+    max-width: 600px;
+    padding: 10px;
+    color: white;
+  }
+  form{
+    align-content: center;
+  }
+  .form-content{
+    padding: 15px 44px;
+    -webkit-box-align: center;
+    border-radius: 400px;
+    width: 250px;
+    margin-top: 5px;
+  }
+  #submit{
+    padding: 15px 30px;
+    -webkit-box-align: center;
+    border-radius: 500px;
+    width: 250px;
+    background-color: #ffa2a2;
+    margin-top: 5px;
+  }
+  .form-lupa-sandi a{
+    color: rgb(0, 7, 102);
+  }
+  :root{
+    --primary-color: rgb(72, 129, 72);
+    --secondary-color: rgb(18, 159, 214);
+    --tertiary-color: rgba(255, 0, 0, 0.6);
+  }
+  
+  .light-mode{
+    --primary-color: rgb(30, 235, 12);
+    --secondary-color: rgb(214, 218, 18);
+    --tertiary-color: rgba(36, 24, 192, 0.6);    
+  }
